@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Ramses';
+    src: url(Fuentes/Trajan\ Pro\ Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+body {
+    background-color: #193561;
+}
+main {
+    width: 75%;
+    margin: auto;
+    padding: 0 10px;
+}
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: #193561;
+    position: sticky;
+    top: 0;
+}
+nav {
+    margin-top: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+.menu li {
+    list-style-type: none;
+    font-family: 'Ramses';
+}
+#lip {
+    text-decoration: underline 3px;
+    color: palegoldenrod;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+.DC a:hover {
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+}
+section h1 {
+    margin-top: 60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Ramses';
+    color: white;
+    text-align: center;
+}
+section img {
+    width: 100%;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    margin-left: 20px;
+    text-align: center;
+}
+.pie {
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}

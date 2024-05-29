@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Ramses';
+    src: url(Fuentes/Trajan\ Pro\ Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+main{
+    position: relative;
+    z-index: 2;
+}
+header {
+    padding: 10px;
+    margin-top: 9%;
+    text-align: center;
+}
+header img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+header h3 {
+    width: 50%;
+    margin-left: 470px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Ramses';
+    font-weight: bold;
+}
+header p {
+    width: 38%;
+    margin-left: 600px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Ramses';
+    font-weight: bold;
+}
+nav {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.N1{
+    width: 7%;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 1.5vh;
+}
+.N1 a {
+    text-decoration: none;
+    color: white;
+}
+.N1 h3 {
+    padding: 15px;
+    text-align: center;
+    width: 75%;
+    font-family: 'Ramses';
+    text-decoration: underline;
+}
+.N1  h3:hover {
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    margin-left: 20px;
+    text-align: center;
+}
+.pie {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}

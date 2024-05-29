@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Ramses';
+    src: url(Fuentes/Trajan\ Pro\ Regular.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+body {
+    background-color: #193561;
+}
+main {
+    width: 75%;
+    margin: auto;
+    padding: 0 10px;
+}
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: #193561;
+    position: sticky;
+    top: 0;
+}
+nav {
+    margin-top: 50px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+.menu li {
+    list-style-type: none;
+    font-family: 'Ramses';
+}
+#lih {
+    text-decoration: underline 3px;
+    color: palegoldenrod;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 30px;
+}
+.DC a:hover {
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+}
+section {
+    color: white;
+    padding: 50px;
+    padding-top: 10px;
+    text-align: justify;
+}
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Ramses";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+section h1 {
+    text-decoration: underline 2px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Ramses';
+}
+.articulo1 p {
+    font-family: 'Ramses';
+}
+
+.imagen {
+    width: 20%;
+    float: left;
+    height: 200px;
+    padding: 15px;
+}
+
+.articulo2 {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 5%;
+}
+.articulo2 h2 {
+    width: 20%;
+    background-color: #234162;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Ramses';
+}
+.articulo2 p {
+    font-family: 'Ramses';
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    margin-left: 20px;
+    text-align: center;
+}
+.pie {
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
